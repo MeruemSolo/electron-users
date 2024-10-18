@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пользователи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Пользователи</h1>
+    <table id="usersTable">
+        <tr><th>Имя</th><th>Возраст</th></tr>
+    </table>
+    <button id="addUserBtn">Добавить пользователя</button>
+
+    <div id="form" style="display:none;">
+        <h2>Добавить пользователя</h2>
+        <label>Имя: <input type="text" id="name"></label>
+
+        <label>Возраст: <input type="number" id="age"></label>
+
+        <button id="submitBtn">Сохранить</button>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>
